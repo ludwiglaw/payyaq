@@ -1,4 +1,4 @@
-		
+<div>		
 	<link rel="stylesheet" href="https://api.epay.com/paymentApi/css/exchange.css?v=20170807" />
 	<script src="https://api.epay.com/paymentApi/js/jquery-1.9.1.js"></script>
 	<script src="https://api.epay.com/paymentApi/js/exchange3.js?v=20170807"></script>
@@ -67,3 +67,4 @@
 	</div>
 		
 	<input type="hidden" id="merchant_epay_account" value="ludwig.luo@gmail.com"><input type="hidden" id="merchant_epay_account" value="ludwig.luo@gmail.com">
+</div>
