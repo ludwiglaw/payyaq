@@ -1,20 +1,3 @@
-<div style="width: 100%; height: 550px; " id="sosobtc_market"></div>
-<script src="https://www.sosobtc.com/public/assets/plugin/sosobtc_plugin.js"></script>
-<script type="text/javascript">
-    (function () {
-        SOSOBTC('Market').init({
-            id: 'sosobtc_market',
-            btc: ['okcoinfutures_quarter','okcoin','huobi','btcchina','viabtc','coinbase','bitstamp','bitfinex','okcoincom','okcoinfutures_week'],
-            ltc: ['okcoin','okcoincom','bitfinex','bitstamp'],
-            others: ['eth_yunbi','eos_yunbi','ans_yunbi'],
-            row: ['price', 'buy', 'sell', 'high', 'low', 'vol'],
-            td_height: '30px',
-            
-        });
-    })();
-    
-</script>
-
 <div>		
 	<link rel="stylesheet" href="https://api.epay.com/paymentApi/css/exchange.css?v=20170807" />
 	<script src="https://api.epay.com/paymentApi/js/jquery-1.9.1.js"></script>
@@ -85,3 +68,20 @@
 		
 	<input type="hidden" id="merchant_epay_account" value="ludwig.luo@gmail.com"><input type="hidden" id="merchant_epay_account" value="ludwig.luo@gmail.com">
     </div>
+
+<div style="width: 100%; height: 550px; " id="sosobtc_market"></div>
+<script src="https://www.sosobtc.com/public/assets/plugin/sosobtc_plugin.js"></script>
+<script type="text/javascript">
+    (function () {
+        SOSOBTC('Market').init({
+            id: 'sosobtc_market',
+            btc: ['okcoinfutures_quarter','okcoin','huobi','btcchina','viabtc','coinbase','bitstamp','bitfinex','okcoincom','okcoinfutures_week'],
+            ltc: ['okcoin','okcoincom','bitfinex','bitstamp'],
+            others: ['eth_yunbi','eos_yunbi','ans_yunbi'],
+            row: ['price', 'buy', 'sell', 'high', 'low', 'vol'],
+            td_height: '30px',
+            
+        });
+    })();
+    
+</script>
